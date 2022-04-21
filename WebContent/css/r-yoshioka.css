@@ -25,10 +25,6 @@
   width: 100%;
 }
 
-/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
-#splash_text svg{
-    height: 2px;
-}
 
 /*割れる画面のアニメーション*/
 .loader_cover {
@@ -93,10 +89,13 @@ a:hover{
   text-align: center;
 }
 #box1{
-    background-image: url("top.jpg");
+    background:url("image/top.jpg");
+    background-size:cover;
+
 }
 #box2{
-    background: #666;
+    background-image: url("image/history.jpg");
+    background-size:cover;
 }
 #box3{
     background: #888;
