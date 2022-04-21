@@ -1,5 +1,6 @@
 
-//Loading
+//index
+
 //テキストのカウントアップ+バーの設定
 var bar = new ProgressBar.Line(splash_text, {//id名を指定
   easing: 'easeInOut',//アニメーション効果linear、easeIn、easeOut、easeInOutが指定可能
@@ -34,7 +35,6 @@ bar.animate(1.0, function () {//バーを描画する割合を指定します 1.
   $("#splash").fadeOut();//#splashエリアをフェードアウト
 });
 
-//スライド
 $.scrollify({
   section : ".box",//1ページスクロールさせたいエリアクラス名
   scrollbars:"false",//スクロールバー表示・非表示設定
@@ -66,3 +66,16 @@ $.scrollify({
 
   });
 
+
+
+//history
+
+$('#wrapper').multiscroll({
+    sectionsColor: ['#333', '#444', '#555','#333', '#444', '#555'],//セクションごとの背景色設定
+  anchors: ['area1', 'area2', 'area3','area4','area5','area6'],//セクションとリンクするページ内アンカーになる名前
+  menu: '#menu',//上部ナビゲーションのメニュー設定
+  navigation: true,//右のナビゲーション出現、非表示は false
+  navigationTooltips:['Area1', 'Area2', 'Area3','Area4','Area5','Area6'],//右のナビゲーション現在地時に入るテキスト
+  loopTop: true,//最初のセクションを上にスクロールして最後のセクションまでスクロールするかどうかを定義します。
+  loopBottom: true,//最後のセクションを下にスクロールして最初のセクションまでスクロールするかどうかを定義します。
+});
