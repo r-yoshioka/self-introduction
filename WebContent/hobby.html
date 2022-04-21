@@ -5,24 +5,26 @@
 <title>MY PROFILE</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/css/reset.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.css">
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/css/6-3.css">
+<!-- font -->
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Homemade+Apple&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Homemade+Apple&family=Shadows+Into+Light&family=Yomogi&display=swap" rel="stylesheet">
+<!-- 自作 -->
+<link rel="stylesheet" type="text/css" href="css/r-yoshioka_hobby.css">
 </head>
 
 <body>
+<div id="container">
 <header id="header">
 <h1>MY PLOFILE</h1>
   <nav>
-  <ul id="menu">
-    <li data-menuanchor="area1" class="active"><a href="#area1">BIRTH</a></li>
-    <li data-menuanchor="area2"><a href="#area2">UNTIL THEN</a></li>
-    <li data-menuanchor="area3"><a href="#area3">HIGH SCHOOL</a></li>
-    <li data-menuanchor="area4"><a href="#area4">UNIVERSITY</a></li>
-    <li data-menuanchor="area5"><a href="#area5">NOW</a></li>
-
-  </ul>
-  </nav>
+   <ul id="menu">
+     <li><a href="index.html">TOP</a></li>
+     <li><a href="history.html">HISTORY</a></li>
+     <li><a href="hobby.html">HOBBY</a></li>
+     <li><a href="other.html">OTHER</a></li>
+   </ul>
+ </nav>
 </header>
 
 <div id="wrapper">
@@ -31,42 +33,57 @@
     <section class="ms-section" id="left1">
       <div class="sp-top"></div>
       <div class="sp-bottom">
-      <h2>BIRTH</h2>
-      <p>生まれ</p>
+      <h2>KARAOKE</h2>
+      <p>大学生、最後のバイト</p>
+      <p>暇さえあれば、カラオケへ</p>
+      <h3>好きなアーティスト</h3>
+      <p>・Voundy　・King Gnu</p>
+      <p>・西野カナ　・安室奈美恵</p>
+      <p>アニメの曲、、、etc</p>
       </div>
     <!--/left1--></section>
 
     <section class="ms-section" id="left2">
       <div class="sp-top"></div>
       <div class="sp-bottom">
-      <h2>UNTIL THEN</h2>
-      <p>中学生まで</p>
+      <h2>ANIME・MANGA</h2>
+      <p>高校生から、アニメにハマり、、、</p>
+      <h3>好きなアニメ</h3>
+      <P>・銀魂　・ナルト</P>
+      <p>・ワンピース　・ハイキュー</p>
+      <p>・ヴァイオレット・エヴァーガーデン</p>
+      <p>・進撃の巨人　呪術廻戦　などなど
+      <p>最近の通勤は、Reゼロの小説を読んでます。</p>
+      <p>王道アニメを永遠見ています。</p>
       </div>
     <!--/left2--></section>
 
     <section class="ms-section" id="left3">
       <div class="sp-top"></div>
       <div class="sp-bottom">
-      <h2>HIGH SCHOOL</h2>
-      <p>高校生</p>
+      <h2>GAME</h2>
+      <h3>RPGゲームを主に</h3>
+      <p>小さい頃から、母の影響で</p>
+      <p>Final Fantasyやキングダムハーツにハマる。</p>
+      <p>同じものをずっとやり続けている。</p>
+      <p>(戦闘系のゲームは苦手です。)</p>
+      <p>最近では、Switchを手に入れたので<br>
+         キングダムハーツとオーバークックというゲームをやっている</p>
       </div>
     <!--/left3--></section>
 
     <section class="ms-section" id="left4">
       <div class="sp-top"></div>
       <div class="sp-bottom">
-      <h2>UNIVERSITY</h2>
-      <p>大学生</p>
+      <h2>BASKETBALL</h2>
+      <h3>小学生から、父の影響で始める。</h3>
+      <p>高校までは部活動・大学ではサークル</p>
+      <p>地元の子とチームを組み社会人の大会に出たり、</p>
+      <p>サークルでは、大会で優勝し、ナイキ7万円分‼</p>
+      <p>現在も行ける日は、夜バスへ</p>
       </div>
     <!--/left4--></section>
 
-    <section class="ms-section" id="left5">
-      <div class="sp-top"></div>
-      <div class="sp-bottom">
-      <h2>NOW</h2>
-      <p>現在</p>
-      </div>
-    <!--/left5--></section>
 
 
   <!--/ms-left--></div>
@@ -76,16 +93,15 @@
     <div class="ms-section" id="right2"></div>
     <div class="ms-section" id="right3"></div>
     <div class="ms-section" id="right4"></div>
-    <div class="ms-section" id="right5"></div>
-    <div class="ms-section" id="right6"></div>
   <!--/ms-right--></div>
 
 <!--/wrapper--></div>
-
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<!--デモ画面では、JSを2重に読み込んで誤作動しないようにコメントアウトしています。コピペして利用する際は、コメントを外して動きを確かめてください。<script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/js/6-3.js"</script>-->
+<!-- 自作 -->
+<script src="js/r-yoshioka_hobby.js"></script>
 </body>
 </html>

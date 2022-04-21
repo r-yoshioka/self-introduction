@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
-/*history*/
+/*hobby*/
+
+h1,ul,h2{
+	font-family: 'Amatic SC', cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
 
 body{
     word-break: break-all;
@@ -33,17 +39,36 @@ body{
 }
 
 h1{
-  font-size:1.5rem;
+  font-size:2rem;
 }
 
 h2{
-  font-size:1.3rem;
+  font-size:2rem;
   margin:0 0 20px 0;
   text-align: center;
 }
 
+h3,h4{
+	font-size:1.2rem;
+	margin:0 0 20px 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Yomogi', cursive;
+}
+
+ul{
+	font-size:1.3rem;
+}
+
 p{
   margin:0 0 20px 0;
+  text-align:center;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Homemade Apple', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Yomogi', cursive;
 }
 
 /*右にある丸ナビゲーション色*/
@@ -82,32 +107,22 @@ p{
 /*右エリア画像設定*/
 
 #right1{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/daniel-chen-546446-unsplash.jpg") no-repeat center;
+  background:url("../image/カラオケ.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right2{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
+  background:url("../image/本.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right3{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/jeff-sheldon-3226-unsplash.jpg") no-repeat center;
+  background:url("../image/ゲーム.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right4{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
-  background-size:cover;
-}
-
-#right5{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/jeff-sheldon-3226-unsplash.jpg") no-repeat center;
-  background-size:cover;
-}
-
-#right6{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
+  background:url("../image/バスケ.jpg") no-repeat center;
   background-size:cover;
 }
 
@@ -166,15 +181,7 @@ p{
   background-size:cover;
 }
 
-#left5 .sp-top{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
-  background-size:cover;
-}
 
-#left6 .sp-top{
-  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/jeff-sheldon-3226-unsplash.jpg") no-repeat center;
-  background-size:cover;
-}
 
 /*左エリア下部テキスト余白設定*/
 .sp-bottom{
