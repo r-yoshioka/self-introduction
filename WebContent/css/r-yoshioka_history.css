@@ -217,21 +217,26 @@ p{
 }
 
 #right2{
-  background:url("../image/子供.jpg") no-repeat center;
+  background:url("../image/父母.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right3{
-  background:url("../image/高校.jpg") no-repeat center;
+  background:url("../image/子供.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right4{
-  background:url("../image/sotugyou.jpg") no-repeat center;
+  background:url("../image/高校.jpg") no-repeat center;
   background-size:cover;
 }
 
 #right5{
+  background:url("../image/sotugyou.jpg") no-repeat center;
+  background-size:cover;
+}
+
+#right6{
   background:url("../image/ゆき.jpg") no-repeat center;
   background-size:cover;
 }
@@ -293,6 +298,11 @@ p{
 }
 
 #left5 .sp-top{
+  background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
+  background-size:cover;
+}
+
+#left6 .sp-top{
   background:url("http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/6-3/img/hisu-lee-169301-unsplash.jpg") no-repeat center;
   background-size:cover;
 }
