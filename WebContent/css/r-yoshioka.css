@@ -54,7 +54,8 @@
 
 h1,main,footer{
 	font-family: 'Amatic SC', cursive;
-font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:2rem;
 }
 
 h2{
@@ -82,10 +83,11 @@ a:hover{
 /*スクロール*/
 
 #header{
-  padding: 40px;
+  padding: 80px;
   background:#666;
     color: #fff;
   text-align: center;
+  font-size:80%;
 }
 
 .box{
@@ -101,11 +103,11 @@ a:hover{
     background-size:cover;
 }
 #box2{
-    background-image: url("../image/history.jpg");
+    background-image: url("../image/そつぎょう.jpg");
     background-size:cover;
 }
 #box3{
-    background-image:url("../image/そつぎょう.jpg");
+    background-image:url("../image/history.jpg");
     background-size:cover;
 }
 #box4{
@@ -195,7 +197,7 @@ a:hover{
     /*形状*/
     display: inline-block;
 	padding: 0 20px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     outline: none;
 }
@@ -210,7 +212,7 @@ a:hover{
     /*下線の形状*/
     width: 85%;
     height: 1px;
-	background:#333;
+	background:#fff;
     /*アニメーションの指定*/
     transition: all .3s;
 }
@@ -224,7 +226,7 @@ a:hover{
     /*矢印の形状*/
     width: 15px;
     height:1px;
-	background:#333;
+	background:#fff;
     transform: rotate(35deg);
     /*アニメーションの指定*/
     transition: all .3s;
