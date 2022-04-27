@@ -64,10 +64,17 @@ h1{
 }
 
 h2{
+	font-family: 'Yomogi', cursive;
+	font-size:1rem;
+	margin:0 0 15px 0;
+    text-align: center;
+}
+
+p{
 	font-size:2rem;
 	margin:0 0 15px 0;
     text-align: center;
-    font-color:#000;
+    color:#000;
 }
 
 /*＝＝＝並び替えボタンのCSS*/
